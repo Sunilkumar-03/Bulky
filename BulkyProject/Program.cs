@@ -1,6 +1,8 @@
-using BulkyProject.Data;
-using BulkyProject.Services;
+using Bulky.DataAccess.Migrations;
+using Bulky.DataAccess.Data;
+using Bulky.DataAccess.Repositories.IRepository;
 using Microsoft.EntityFrameworkCore;
+using Bulky.DataAccess.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
-builder.Services.AddScoped<ICategory, Category>();
+builder.Services.AddScoped<IUnitWork, UnitWork>();
 
 var app = builder.Build();
 
@@ -29,6 +31,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

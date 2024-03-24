@@ -5,7 +5,13 @@ VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BulkyProject", "BulkyProject\BulkyProject.csproj", "{A32D7ACE-6839-406F-8647-92FC67A6C802}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulkyRazor", "BulkyRazor\BulkyRazor.csproj", "{BBC7C1DD-930A-4A82-A297-31B8C8FFE663}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BulkyRazor", "BulkyRazor\BulkyRazor.csproj", "{BBC7C1DD-930A-4A82-A297-31B8C8FFE663}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bulky.DataAccess", "Bulky.DataAccess\Bulky.DataAccess.csproj", "{3D547B39-AD7D-4B3D-9855-F409FD26AC74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bulky.Models", "Bulky.Models\Bulky.Models.csproj", "{B76A4A0B-25D0-46C7-936E-B35443EA88C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bulky.Utility", "Bulky.Utility\Bulky.Utility.csproj", "{5E7790AC-32D7-4294-90CC-5EB942F0F79C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{BBC7C1DD-930A-4A82-A297-31B8C8FFE663}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBC7C1DD-930A-4A82-A297-31B8C8FFE663}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBC7C1DD-930A-4A82-A297-31B8C8FFE663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D547B39-AD7D-4B3D-9855-F409FD26AC74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D547B39-AD7D-4B3D-9855-F409FD26AC74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D547B39-AD7D-4B3D-9855-F409FD26AC74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D547B39-AD7D-4B3D-9855-F409FD26AC74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B76A4A0B-25D0-46C7-936E-B35443EA88C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B76A4A0B-25D0-46C7-936E-B35443EA88C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B76A4A0B-25D0-46C7-936E-B35443EA88C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B76A4A0B-25D0-46C7-936E-B35443EA88C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E7790AC-32D7-4294-90CC-5EB942F0F79C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E7790AC-32D7-4294-90CC-5EB942F0F79C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E7790AC-32D7-4294-90CC-5EB942F0F79C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E7790AC-32D7-4294-90CC-5EB942F0F79C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

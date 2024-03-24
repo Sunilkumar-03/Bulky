@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BulkyProject.Models
+namespace Bulky.Models
 {
     public class Categories
     {
